@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Epic claude usage tracker",
+  "version": "1.3.0",
+  "description": "Session and weekly usage limits, always visible on claude.ai.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["font.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
