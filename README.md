@@ -12,8 +12,8 @@ A tiny Chrome extension that keeps your **claude.ai usage limits** — the 5-hou
 
 Works in Chrome, Arc, Brave and Edge.
 
-1. Download **`epic-claude-usage-tracker.zip`** from the [latest release](../../releases/latest) and unzip it.
-2. Move the `epic-claude-usage-tracker` folder somewhere permanent (e.g. Documents) — the browser loads the extension from it.
+1. [**Download ZIP**](https://github.com/savelliysharckov-cloud/epic-claude-usage-tracker/archive/refs/heads/main.zip) and unzip it.
+2. Move the `epic-claude-usage-tracker-main` folder somewhere permanent (e.g. Documents) — the browser loads the extension from it.
 3. Open `chrome://extensions`.
 4. Turn on **Developer mode** (top right).
 5. Click **Load unpacked** and choose the folder.
